@@ -1,6 +1,6 @@
 {
   "name": "unseena",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "private": true,
   "type": "module",
   "license": "MIT",
@@ -17,7 +17,6 @@
   },
   "scripts": {
     "test": "jest",
-    "prepare": "husky",
     "build": "next build",
     "start": "next start",
     "test:ci": "jest --ci",
