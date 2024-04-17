@@ -53,17 +53,16 @@ automatically optimize and load Inter, a custom Google Font.
 11. Jest
 12. React Testing Library
 13. Playwright
-14. Storybook
-15. OXC Linter
-16. Prettier
-17. Husky
-18. Lint Staged
-19. Commit Lint
-20. Conventional Commits
-21. Semantic Release
-22. Automatic ChatGPT Code Review
-23. Dependabot
-24. PNPM
+14. OXC Linter
+15. Prettier
+16. Husky
+17. Lint Staged
+18. Commit Lint
+19. Conventional Commits
+20. Semantic Release
+21. Automatic ChatGPT Code Review
+22. Dependabot
+23. PNPM
 
 ## Learn More
 

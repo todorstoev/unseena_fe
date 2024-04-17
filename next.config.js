@@ -26,7 +26,7 @@ const withBundleAnalyzerConfig = withBundleAnalyzer({
 const sentryConfig = {
   silent: true,
   org: 'ventsislavnikolov',
-  project: 'next-boilerplate',
+  project: 'unseena',
 };
 
 const withSentry = withSentryConfig(nextConfig, sentryConfig, {

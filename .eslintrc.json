@@ -44,7 +44,8 @@
     "lodash/prefer-lodash-method": "off",
     "unicorn/prevent-abbreviations": "off",
     "tailwindcss/no-custom-classname": "off",
-    "unicorn/no-await-expression-member": "off"
+    "unicorn/no-await-expression-member": "off",
+    "unicorn/prefer-optional-catch-binding": "off"
   },
   "overrides": [
     {
@@ -71,7 +72,6 @@
           ["store", "./src/store"],
           ["router", "./src/router"],
           ["assets", "./src/assets"],
-          ["stories", "./src/stories"],
           ["components", "./src/components"]
         ],
         "extensions": [".js", ".jsx", ".ts", ".tsx", ".json"]

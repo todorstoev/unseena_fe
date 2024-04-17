@@ -1,9 +1,16 @@
 {
-  "Boilerplate": {
-    "title": "Hello Boilerplate!",
-    "description": "A simple boilerplate for creating a new project.",
+  "Index": {
+    "title": "Unseena",
+    "description": "Unseena is a website for CVs",
     "english": "English",
     "spanish": "Spanish",
-    "german": "German"
+    "login": "Login",
+    "email": "Email",
+    "sign-up": "Sign up",
+    "password": "Password",
+    "login-with-google": "Login with Google",
+    "forgot-your-password": "Forgot your password?",
+    "dont-have-an-account": "Don't have an account?",
+    "enter-your-email": "Enter your email below to login to your account"
   }
 }

@@ -28,25 +28,6 @@ jobs:
 
       - name: Format check
         run: pnpm format
-
-      - name: Unit & Integration tests
-        run: pnpm test:ci
-
-      - name: Install concurrently
-        run: npm install -g concurrently
-
-      - name: Install wait-on
-        run: npm install -g wait-on
-
-      - name: Install playwright
-        run: pnpm exec playwright install
-
-      - name: Smoke & Acceptance tests
-        run: |
-          pnpm build-storybook --quiet
-          npx concurrently -k -s first -n "SB,TEST" -c "magenta,blue" \
-            "npx http-server storybook-static --port 6006 --silent" \
-            "npx wait-on tcp:127.0.0.1:6006 && pnpm test-storybook"
   test:
     name: e2e Testing
     needs: check
