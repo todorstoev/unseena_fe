@@ -1,4 +1,4 @@
-name: Lint, Format, Tests, e2e Testing, Build, Release
+name: Lint, format, test, build and release
 
 on:
  push:
@@ -8,7 +8,7 @@ on:
 
 jobs:
   check:
-    name: Lint, Format, Tests
+    name: Lint and format check
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4

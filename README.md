@@ -3,17 +3,15 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with
 
 ## Description
 
-Boilerplate for NextJS projects with all the necessary tools and configurations.
+Unseena FE project with all the necessary tools and configurations.
 
 ## Requirements
 
 1. Node.js
 2. pnpm
-3. Graphviz
-4. Playwright
-5. Visual Studio Code or any other IDE
-6. OXC for Visual Studio Code (or any other IDE with OXC support)
-7. Prettier for Visual Studio Code (or any other IDE with Prettier support)
+3. Visual Studio Code or any other IDE
+4. OXC for Visual Studio Code (or any other IDE with OXC support)
+5. Prettier for Visual Studio Code (or any other IDE with Prettier support)
 
 ## Getting Started
 
@@ -25,9 +23,6 @@ First, run the development server:
 3. Run `pnpm install` to install dependencies.
 4. Run `pnpm dev` to start the app.
 5. Open `localhost:3000` in your browser.
-6. Install Graphviz from [here](https://graphviz.org/download/) to run the graphviz visualizer.
-7. Install Playwright from [here](https://playwright.dev/docs/intro) to run the tests or execute
-   `npx playwright install` && `npx playwright install msedge` to install it globally.
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
@@ -40,29 +35,25 @@ automatically optimize and load Inter, a custom Google Font.
 
 ## Technologies Used
 
-1. Next.js
+1. NextJS
 2. ReactJS
 3. TailwindCSS
-4. Graphviz
-5. React Router
-6. Redux Toolkit
-7. React Toolkit Query
-8. Styled Components
-9. React-CVA
-10. Radix UI
-11. Jest
-12. React Testing Library
-13. Playwright
-14. OXC Linter
-15. Prettier
-16. Husky
-17. Lint Staged
-18. Commit Lint
-19. Conventional Commits
-20. Semantic Release
-21. Automatic ChatGPT Code Review
-22. Dependabot
-23. PNPM
+4. Shadnc/ui
+5. React-CVA
+6. Radix UI
+7. Jest
+8. React Testing Library
+9. Playwright
+10. OXC Linter
+11. ESLint
+12. Prettier
+13. Husky
+14. Lint Staged
+15. Commitlint
+16. Conventional Commits
+17. Semantic Release
+18. PNPM
+19. ENV Vault
 
 ## Learn More
 
