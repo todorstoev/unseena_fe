@@ -42,9 +42,11 @@
     "import/no-default-export": "off",
     "unicorn/no-zero-fractions": "off",
     "lodash/prefer-lodash-method": "off",
+    "jsx-a11y/heading-has-content": "off",
     "unicorn/prevent-abbreviations": "off",
     "tailwindcss/no-custom-classname": "off",
     "unicorn/no-await-expression-member": "off",
+    "@typescript-eslint/no-empty-interface": "off",
     "unicorn/prefer-optional-catch-binding": "off"
   },
   "overrides": [
