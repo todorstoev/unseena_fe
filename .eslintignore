@@ -1,0 +1,7 @@
+node_modules
+public
+bin
+build
+*.config.cjs
+*.config.js
+*.config.mjs
